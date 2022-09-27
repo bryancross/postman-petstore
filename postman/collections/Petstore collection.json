@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "930d9d6b-7b77-4d81-ad66-d33f7105001d",
+		"_postman_id": "d07b7bf8-aa19-4888-8140-63d963faadfd",
 		"name": "Petstore collection",
 		"description": "Multi-file boilerplate for OpenAPI Specification.\n\nContact Support:\n Name: API Support\n Email: support@example.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "23357111-930d9d6b-7b77-4d81-ad66-d33f7105001d"
+		"_uid": "23357111-d07b7bf8-aa19-4888-8140-63d963faadfd"
 	},
 	"item": [
 		{
 			"name": "Detail",
-			"id": "a9de4cb7-7bd9-48c7-b260-ad8ba66a4387",
+			"id": "e8badffb-e410-4d3c-aefa-cd699a6fbccb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -33,7 +33,7 @@
 					"variable": [
 						{
 							"key": "petId",
-							"value": "id elit fugiat",
+							"value": "ut enim",
 							"description": "(Required) The id of the pet to retrieve"
 						}
 					]
@@ -42,16 +42,11 @@
 			},
 			"response": [
 				{
-					"id": "8fbd33c0-8df2-4434-ac3b-5b15917c7a52",
+					"id": "108c50df-1f04-496b-baf3-ef49546dd372",
 					"name": "Expected response to a valid request",
 					"originalRequest": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
+						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/pets/:petId",
 							"host": [
@@ -64,12 +59,11 @@
 							"variable": [
 								{
 									"key": "petId",
-									"value": "id elit fugiat",
+									"value": "ut enim",
 									"description": "(Required) The id of the pet to retrieve"
 								}
 							]
-						},
-						"description": "Info for a specific pet"
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -81,19 +75,14 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": 39216093,\n  \"name\": \"veniam in commodo tempor\",\n  \"tag\": \"elit ea in\"\n}"
+					"body": "{\n  \"id\": 25419871,\n  \"name\": \"labore\",\n  \"tag\": \"incididunt est minim ad\"\n}"
 				},
 				{
-					"id": "d967045b-7d3d-4a6e-b0a9-dc8d7e1e4d7f",
+					"id": "26547479-b70d-4c4c-be61-aeac5ba51167",
 					"name": "unexpected error",
 					"originalRequest": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
+						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/pets/:petId",
 							"host": [
@@ -106,12 +95,11 @@
 							"variable": [
 								{
 									"key": "petId",
-									"value": "id elit fugiat",
+									"value": "ut enim",
 									"description": "(Required) The id of the pet to retrieve"
 								}
 							]
-						},
-						"description": "Info for a specific pet"
+						}
 					},
 					"status": "Internal Server Error",
 					"code": 500,
@@ -123,14 +111,14 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"code\": 49604747,\n  \"message\": \"pariatur Lorem\"\n}"
+					"body": "{\n  \"code\": 63795563,\n  \"message\": \"proident deserunt eu\"\n}"
 				}
 			]
 		}
 	],
 	"variable": [
 		{
-			"id": "ec37010b-621f-4c3f-90db-a7decd87150a",
+			"id": "2987487c-75ce-4852-8aa5-c8ac6e5af3e1",
 			"key": "baseUrl",
 			"value": "https://petstore.swagger.io/v2",
 			"type": "string"
