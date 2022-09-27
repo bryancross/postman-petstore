@@ -1,0 +1,26 @@
+id = 7d83f4f8-4262-4a5e-839b-a828c80cc48a
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"23357111-930d9d6b-7b77-4d81-ad66-d33f7105001d","path":"Petstore collection.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"schemas/openapi.yaml","metaData":{}}
+files[] = {"path":"schemas/parameters/_index.yaml","metaData":{}}
+files[] = {"path":"schemas/parameters/path/petId.yaml","metaData":{}}
+files[] = {"path":"schemas/parameters/query/limit.yaml","metaData":{}}
+files[] = {"path":"schemas/resources/pet.yaml","metaData":{}}
+files[] = {"path":"schemas/responses/_index.yaml","metaData":{}}
+files[] = {"path":"schemas/responses/NullResponse.yaml","metaData":{}}
+files[] = {"path":"schemas/responses/UnexpectedError.yaml","metaData":{}}
+files[] = {"path":"schemas/schemas/_index.yaml","metaData":{}}
+files[] = {"path":"schemas/schemas/Error.yaml","metaData":{}}
+files[] = {"path":"schemas/schemas/Pet.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
